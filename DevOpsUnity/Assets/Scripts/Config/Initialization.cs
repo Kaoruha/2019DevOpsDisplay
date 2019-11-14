@@ -49,7 +49,7 @@ public class Initialization : MonoBehaviour {
 				ServerList[i][j].SetFloor(floor);
 				
 				print("Server: "+ ServerList[i][j].GetName());
-				print("ServerPos: ");
+				print("ServerPos: " + ServerList[i][j].GetPos());
 				
 			}
 			
