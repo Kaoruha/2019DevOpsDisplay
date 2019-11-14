@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "rittal": "1",
+      "ServerConfig": [
+        {
+          "id": "1",
+          "name": "Controller01",
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "3",
+          "floor": "2"
+        },
+        {
+          "id": "2",
+          "name": "Controller02",
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "6",
+          "floor": "2"
+        },
+        {
+          "id": "3",
+          "name": "Controller03",
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "9",
+          "floor": "2"
+        },
+        {
+          "id": "4",
+          "name": "Computer01",
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "13",
+          "floor": "2"
+        },
+        {
+          "id": "5",
+          "name": "Computer02",
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "16",
+          "floor": "2"
+        }
+      ]
+    },
+    {
+      "rittal": "2",
+      "ServerConfig": [
+        {
+          "id": "1",
+          "name": "Test01",
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "3",
+          "floor": "2"
+        },
+        {
+          "id": "2",
+          "name": "Test02",
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "6",
+          "floor": "2"
+        },
+        {
+          "id": "3",
+          "name": "Test03",
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "9",
+          "floor": "2"
+        }
+      ]
+    }
+  ]
+  
+  
+}
+
+
