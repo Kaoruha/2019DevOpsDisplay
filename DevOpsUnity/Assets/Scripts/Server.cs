@@ -1,8 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Server {
+public class Server: MonoBehaviour {
+
+	
 	
 //	服务器ID
 	private int id = 0;
@@ -95,5 +98,29 @@ public class Server {
 			this.floor = floor;
 		}
 	}
+	
+//	硬盘阵列
+	public GameObject disk;
+	private float xOffset =2.035f;
+	private float yOffset =0.385f;
+	private Vector3 serverPos;
+	private Vector3 originalPso = new Vector3(-10.2f, 0f, 0f);
+	private Vector3 diskPos =new Vector3(-10.2f,0f,0f); 
 
+
+	private void Start() {
+		serverPos = transform.position;
+		DiskInitialization();
+	}
+
+
+	private void DiskInitialization() {    
+		for (int i = 0; i < 4; i++) {        
+			for (int j = 0; j < 6; j++) {            
+				diskPos = new Vector3(serverPos.x + originalPso.x + j * xOffset, serverPos.y + originalPso.y -i*yOffset, serverPos.z + originalPso.z);            
+				Instantiate(disk, diskPos, disk.transform.rotation,transform);        
+			}            
+		}
+		
+	}
 }

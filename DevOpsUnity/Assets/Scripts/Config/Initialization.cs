@@ -10,6 +10,8 @@ public class Initialization : MonoBehaviour {
 	private JsonData myJson;
 
 	public List<List<Server>> ServerList  = new List<List<Server>>();
+	
+	private Server defaltServ = new Server();
 
 	private void Start() {
 		myJson   = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/Scripts/Config/Config.json"))["data"];
@@ -20,7 +22,7 @@ public class Initialization : MonoBehaviour {
 		for (int i = 0; i < myJson.Count; i++) {
 			ServerList.Add(new List<Server>());
 			for (int j = 0; j < myJson[i]["ServerConfig"].Count; j++) {
-				ServerList[i].Add(new Server());
+				ServerList[i].Add(defaltServ);
 				
 //				添加服务器ID
 				int id = Int16.Parse(myJson[i]["ServerConfig"][j]["id"].ToString());
