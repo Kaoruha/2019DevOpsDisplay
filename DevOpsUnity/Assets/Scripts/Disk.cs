@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 
 //	硬盘类
@@ -32,16 +35,13 @@ public class Disk : MonoBehaviour {
 			this.row = row;
 		}
 	}
-
-	
-
 	
 
 	
 //	硬盘ID
 	private int id = 0;
 	public void UpdateID() {
-		id = row * 6 + column;
+		id = (row - 1) * 6 + column;
 	}
 
 	public int GetID() {
@@ -69,4 +69,89 @@ public class Disk : MonoBehaviour {
 	}
 	
 	#endregion
+	
+	#region LightController
+	private List<GameObject> lights = new List<GameObject>(2);
+
+	public enum IORate {
+		low,mediumn,high
+	}
+
+	private IORate rate = IORate.low;
+	
+
+	public void SetIO(IORate rate) {
+		switch (rate) {
+			case IORate.low:
+				this.rate = IORate.low;
+				if (this.blinRate != 2f) {
+					this.blinRate = 2f;
+					StopCoroutine("Working");
+					StartCoroutine("Working",blinRate);
+				}
+				break;
+			case IORate.mediumn:
+				this.rate = IORate.mediumn;
+				if (this.blinRate != 10f) {
+					this.blinRate = 10f;
+					StopCoroutine("Working");
+					StartCoroutine("Working",blinRate);
+				}
+				break;
+			case IORate.high:
+				this.rate = IORate.high;
+				if (this.blinRate != 20f) {
+					this.blinRate = 20f;
+					StopCoroutine("Working");
+					StartCoroutine("Working",blinRate);
+				}
+				break;
+		}
+	}
+
+	private void LightControllerInitialization() {
+		for (int i = 0; i < transform.childCount; i++) {
+			if (transform.GetChild(i).name =="Light" || transform.GetChild(i).name =="Light.001") {
+				lights.Add(transform.GetChild(i).gameObject);
+			}
+		}
+	}
+
+	private bool isOn = true;
+	private float blinRate = 2f;
+	private IEnumerator Working(float rate) {
+		while (true) {
+			if (isOn) {
+//				ON
+				for (int i = 0; i < lights.Count; i++) {
+					lights[i].SetActive(isOn);
+				}
+				isOn = !isOn;
+				float time = Random.Range(1f,20f);
+				
+				yield return new WaitForSeconds(time/blinRate);
+			}
+			else {
+//				OFF
+				for (int i = 0; i < lights.Count; i++) {
+					lights[i].SetActive(isOn);
+				}
+
+				isOn = !isOn;
+				yield return new WaitForSeconds(0.1f);
+			}
+		}
+
+
+	}
+	#endregion
+	
+	
+
+
+	private void Start() {
+		LightControllerInitialization();
+		StartCoroutine("Working", blinRate);
+	}
+
 }

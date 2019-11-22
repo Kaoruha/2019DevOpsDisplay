@@ -1,0 +1,1888 @@
+{
+  "data": [
+    {
+      "rittal": "1",
+      "ServerConfig": [
+        {
+          "id": "1",
+          "name": "Controller01",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "3",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Controller02",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "5",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Controller03",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "7",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Computer01",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "9",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Computer02",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "11",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Computer02",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "13",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 0,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Computer02",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "15",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Computer02",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "17",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "name": "Computer02",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "19",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rittal": "2",
+      "ServerConfig": [
+        {
+          "id": "1",
+          "name": "Test01",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "3",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Test02",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "6",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Test03",
+          "assets": {
+            "id": "X0204-003-003",
+            "name": "显示器",
+            "brand": "Philips显示器（AU5A196200029138G）",
+            "sn": "AU5A196200029138G"
+          },
+          "type": "0",
+          "description": "LenovoRD650",
+          "pos": "9",
+          "floor": "2",
+          "Disk": [
+            {
+              "column": 1,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 2,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 2,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 3,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 3,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 4,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 4,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },{
+              "column": 5,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 1,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 2,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 3,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            },
+            {
+              "column": 6,
+              "row": 4,
+              "state": 1,
+              "msg": "900GB+6Gb/s+SAS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
