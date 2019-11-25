@@ -433,5 +433,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f93c61bcd5d1644bb2591cb54c1e1f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serverPrefab: {fileID: 5987313431458750407, guid: 8b04e694fa5f9bb4aa3509922f9b413f,
+  serverPrefab: {fileID: 834905244002812477, guid: 8b04e694fa5f9bb4aa3509922f9b413f,
     type: 3}
