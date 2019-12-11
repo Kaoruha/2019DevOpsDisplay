@@ -21,8 +21,9 @@ public class Rittal : MonoBehaviour {
 
     public List<Server> Generation() {
         for (int i = 0; i < serverPos.Count; i++) {
-            currentPos = new Vector3(rittalPos.x,rittalPos.y+yOffset*serverPos[i].x,rittalPos.z);
+            currentPos = new Vector3(rittalPos.x,rittalPos.y+yOffset*serverPos[i].x/2,rittalPos.z);
             GameObject go = Instantiate(serverPrefab, currentPos, serverPrefab.transform.rotation,transform);
+            go.transform.SetParent(transform.GetChild(0));
             serverList.Add(go.GetComponent<Server>());
         }
 

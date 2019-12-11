@@ -71,6 +71,10 @@ public class Disk : MonoBehaviour {
 	#endregion
 	
 	#region LightController
+
+	public Material red;
+	public Material green;
+	public Transform errorBorder;
 	private List<GameObject> lights = new List<GameObject>(2);
 
 	public enum IORate {
@@ -124,19 +128,19 @@ public class Disk : MonoBehaviour {
 			if (isOn) {
 //				ON
 				for (int i = 0; i < lights.Count; i++) {
-					lights[i].SetActive(isOn);
+//					lights[i].SetActive(isOn);
+					lights[i].transform.localScale = new Vector3(0.01603432f,0.06339002f,0.0246345f);
 				}
 				isOn = !isOn;
 				float time = Random.Range(1f,20f);
-				
-				yield return new WaitForSeconds(time/blinRate);
+				yield return new WaitForSeconds(time/rate);
 			}
 			else {
 //				OFF
 				for (int i = 0; i < lights.Count; i++) {
-					lights[i].SetActive(isOn);
+//					lights[i].SetActive(isOn);
+					lights[i].transform.localScale = Vector3.zero;
 				}
-
 				isOn = !isOn;
 				yield return new WaitForSeconds(0.1f);
 			}
@@ -144,10 +148,35 @@ public class Disk : MonoBehaviour {
 
 
 	}
+
+	public void SetAbnormal() {
+		SetState(false);
+	}
+	
+	public void SetNormal() {
+		print("mimi");
+		SetState(true);
+	}
+
+	private void SetState(bool state) {
+		if (state) {
+			//正常
+			for (int i = 0; i < lights.Count; i++) {
+				lights[i].GetComponent<MeshRenderer>().material = green;
+				errorBorder.localScale = Vector3.zero;
+			}
+		}
+		else {
+			//异常
+			for (int i = 0; i < lights.Count; i++) {
+				lights[i].GetComponent<MeshRenderer>().material = red;
+				errorBorder.localScale = new Vector3(0.22f,1,0.06f);
+			}
+		}
+	}
+	
 	#endregion
 	
-	
-
 
 	private void Start() {
 		LightControllerInitialization();

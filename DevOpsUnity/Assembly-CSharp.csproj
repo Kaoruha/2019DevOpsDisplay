@@ -65,13 +65,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraController.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Disk.cs" />
+    <Compile Include="Assets\Scripts\FanController.cs" />
+    <Compile Include="Assets\Scripts\HelloMoto.cs" />
     <Compile Include="Assets\Scripts\Initialization.cs" />
     <Compile Include="Assets\Scripts\Rittal.cs" />
     <Compile Include="Assets\Scripts\Server.cs" />
+    <Compile Include="Assets\Scripts\ServerInterraction.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\ServerInterraction.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

@@ -35,10 +35,18 @@ public class Initialization : MonoBehaviour {
 				int pos = int.Parse(myJson[i]["ServerConfig"][j]["pos"].ToString());
 				int floor = int.Parse(myJson[i]["ServerConfig"][j]["floor"].ToString());
 				int type = int.Parse(myJson[i]["ServerConfig"][j]["type"].ToString());
+				string name = myJson[i]["ServerConfig"][j]["name"].ToString();
 				go.Initialization();
 				go.addServer(pos,floor,type);
 				List<Server> servers = go.Generation();
 				servers[j].Initialization();
+				servers[j].SetName(name);
+				string ip1 = myJson[i]["ServerConfig"][j]["ip"]["ip1"].ToString() + "||" +
+				             myJson[i]["ServerConfig"][j]["ip"]["ip2"].ToString();
+				string ip2 = myJson[i]["ServerConfig"][j]["ip"]["ip3"].ToString() + "||" +
+				             myJson[i]["ServerConfig"][j]["ip"]["ip4"].ToString();
+				servers[j].SetIP1(ip1);
+				servers[j].SetIP2(ip2);
 				for (int k = 0; k < myJson[i]["ServerConfig"][j]["Disk"].Count; k++) {
 					int column = int.Parse(myJson[i]["ServerConfig"][j]["Disk"][k]["column"].ToString());
 					int row =int.Parse(myJson[i]["ServerConfig"][j]["Disk"][k]["row"].ToString());

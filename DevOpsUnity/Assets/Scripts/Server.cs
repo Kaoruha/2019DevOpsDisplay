@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Server: MonoBehaviour {
+	private ServerInterraction interaction;
 
 	#region Property
 //	服务器ID
@@ -29,6 +30,7 @@ public class Server: MonoBehaviour {
 	public void SetName(string str) {
 		if (str != null && str != "") {
 			this.ServerName = str;
+			interaction.SetName(str);
 		}
 	}
 
@@ -134,6 +136,8 @@ public class Server: MonoBehaviour {
 					go.GetComponent<Disk>().SetRow(i+1);
 					go.GetComponent<Disk>().SetColumn(j+1);
 					go.GetComponent<Disk>().UpdateID();
+					go.transform.SetParent(transform.GetChild(0));
+					//TODO Array Need Fix
 					diskArray.Add(go.GetComponent<Disk>());
 				}
 			}
@@ -149,6 +153,7 @@ public class Server: MonoBehaviour {
 	
 	
 	public void Initialization() {
+		interaction = transform.GetComponent<ServerInterraction>();
 		serverPos = transform.position;
 		for (int i = 0; i < 6; i++) {
 			for (int j = 0; j < 4; j++) {
@@ -166,4 +171,21 @@ public class Server: MonoBehaviour {
 				diskArray[j].SetIO(rate);
 			}
 	}
+
+	private string ip1;
+
+	public void SetIP1(string str) {
+		this.ip1 = str;
+		interaction.SetIP1(str);
+	}
+	
+	private string ip2;
+
+	public void SetIP2(string str) {
+		this.ip2 = str;
+		interaction.SetIP2(str);
+	}
+
+
+
 }
